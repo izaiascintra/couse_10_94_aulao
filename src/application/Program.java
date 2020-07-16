@@ -64,6 +64,13 @@ public class Program {
 			System.out.println(e);
 		}		
 		
+		
+		System.out.println();
+		System.out.println("List of employees:");
+		for (Employee e : list) {
+			System.out.println(e);
+		}		
+		
 		sc.close();
 	}
 
